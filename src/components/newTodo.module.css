@@ -1,0 +1,41 @@
+.form{
+    width: 50%;
+    background-color: #333;
+    padding: .3rem .8rem;
+    box-sizing: border-box;
+    margin-bottom: .2rem;
+    border-radius: .6rem;
+}
+.formField{
+    display: flex;
+    margin: 1rem 0;
+}
+.formFieldInput{
+    flex-basis: 80%;
+    border: none;
+    border-radius: .6rem;
+    padding: .2rem;
+}
+.formFieldLabel{
+    flex-basis: 20%;
+    color: white;
+}
+.formFieldTextarea{
+    flex-basis: 80%;
+    border: none;
+    border-radius: .6rem;
+    padding: .2rem;
+    resize: none;
+}
+
+.button{
+    border: none;
+    border-radius: .6rem;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+.button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
